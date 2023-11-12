@@ -19,7 +19,7 @@ public class CreateComplaintRouteBuilder extends RouteBuilder{
 	public void configure() throws Exception {
 		
 		restConfiguration()
-		 .bindingMode(RestBindingMode.auto);
+		 .bindingMode(RestBindingMode.json);
 		
 		rest("/api")
 		
